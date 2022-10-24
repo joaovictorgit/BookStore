@@ -1,0 +1,29 @@
+.container-list-book {
+    width: 800px;
+    height: 30px;
+    
+}
+
+.lbl-name {
+    width: 50px;
+    margin: 10px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.lbl-price {
+    margin: 10px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.lbl-delete {
+    margin: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.delete-book-car {
+    color: red;
+    font-size: 20px;
+}

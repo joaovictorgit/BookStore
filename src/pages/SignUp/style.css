@@ -1,0 +1,59 @@
+.container-sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.title-sign h1 {
+  background: -webkit-linear-gradient(rgb(199, 211, 92), rgb(117, 28, 219));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.itens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.itens label {
+  color: gray;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: -210px;
+}
+
+.itens input {
+  width: 250px;
+  height: 40px;
+  border: none;
+  box-shadow: 0px 0px 2px #000;
+  text-indent: 10px;
+  margin-top: 10px;
+}
+
+.itens input:focus {
+  outline: none;
+}
+
+.item-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.item-button button {
+  width: 250px;
+  height: 35px;
+  margin-top: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  border-radius: 2px;
+}

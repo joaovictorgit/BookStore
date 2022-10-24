@@ -1,0 +1,82 @@
+.container-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.title-store h1 {
+  background: -webkit-linear-gradient(rgb(199, 211, 92), rgb(117, 28, 219));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container-form {
+  width: 35%;
+  height: 200px;
+
+  border-radius: 5px;
+}
+
+.itens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.itens label {
+  color: gray;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: -210px;
+}
+
+.itens input {
+  width: 250px;
+  height: 40px;
+  border: none;
+  box-shadow: 0px 0px 2px #000;
+  text-indent: 10px;
+  margin-top: 10px;
+}
+
+.itens input:focus {
+  outline: none;
+}
+
+.itens-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.itens-buttons button {
+  width: 250px;
+  height: 35px;
+  margin-top: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+.btn-login {
+  background: blue;
+}
+
+.btn-login:hover {
+  font-weight: 700;
+}
+
+.btn-cad {
+  background: green;
+}
+
+.btn-cad:hover {
+  font-weight: 700;
+}
